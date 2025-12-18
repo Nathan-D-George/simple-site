@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blessed Occupational Therapist</title>
+    <title>Simple Site</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="hello-world.js" defer></script>
+    <script src="helloWorld.js" defer></script>
   </head>
 
   <body class='page-color'>
     <div class="content">
       <img 
-        src="Azula.jpg"
+        src="Azula2.jpg"
         alt="narnia"
         width="200"
         height="300"
       >
-      <div>
-        <h1>My First Website</h1>
-      </div>
-      <div>
-        <p>My first paragraph.</p>
-      </div>
-      <p>My second paragraph.</p>
-      <p>My third paragraph.</p>
-
       <hello-world>
-        <button class="primary-button">Button 1</button>
-        <button class="secondary-button">Button 2</button>
+        <img 
+            src="Azula1.jpg"
+            alt="narnia"
+            width="200"
+            height="300"
+            id="hidden_image_1"
+            class="hidden"
+        >
+        <img 
+            src="Azula3.jpg"
+            alt="narnia"
+            width="200"
+            height="300"
+            id="hidden_image_2"
+            class="hidden"
+        >
+        <div>
+            <h1>My First Website</h1>
+        </div>
+        <div>
+            <p>My first paragraph.</p>
+        </div>
+        <p>My second paragraph.</p>
+        <p>My third paragraph.</p>
+
+          <button id="show_image_1" class="primary-button">Toggle Image 1</button>
+          <button id="show_image_2" class="secondary-button">Toggle Image 2</button>
       </hello-world>
     </div>
   </body>

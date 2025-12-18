@@ -24,6 +24,10 @@ button {
     border-radius: 0.5rem;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .primary-button {
    background-color: #083988; 
    color: #FFFFFF;
@@ -34,4 +38,8 @@ button {
    background-color: #FFFFFF;
    color: #083988;
    font-weight: 600;
+}
+
+.hidden {
+    display: none;
 }
