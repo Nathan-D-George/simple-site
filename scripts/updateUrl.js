@@ -1,9 +1,6 @@
 class UpdateUrl extends HTMLElement {
     constructor() {
         super();
-    }
-
-    connectedCallback() {
         if (window.location.origin.includes('github')) {
             this.updateUrl();
         }
