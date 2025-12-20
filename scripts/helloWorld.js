@@ -3,17 +3,16 @@ class HelloWorld extends HTMLElement {
         super();
     }
 
-    conectedCallback() {
+    connectedCallback() {
         this.querySelectorAll('button').forEach(button =>    
             button.addEventListener('click', this.onClick.bind(button))
         );
-
     }
 
     onClick() {
         const imageToShowId = `hidden${this.id.replace('show','')}`;
         const imageToShow = document.getElementById(imageToShowId);
-        
+
         if (!imageToShow) {
             return;
         }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Site</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/helloWorld.css">
+    <script src="../scripts/helloWorld.js" defer></script>
+  </head>
+
+  <body class='page-color'>
+    <div class="content">
+      <img 
+        src="../assets/Azula2.jpg"
+        alt="narnia"
+        width="200"
+        height="300"
+      >
+      <hello-world>
+        <div style="display: flex; flex-direction: row; gap: 1rem;">
+          <img
+            src="../assets/Azula1.jpg"
+            alt="narnia"
+            width="200"
+            height="300"
+            id="hidden_image_1"
+            class="hidden"
+          >
+          <img 
+            src="../assets/Azula3.jpg"
+            alt="narnia"
+            width="200"
+            height="300"
+            id="hidden_image_2"
+            class="hidden"
+          >
+        </div>
+        <div>
+          <h1>🔥 Our Firelord 🔥</h1>
+        </div>
+        <div>
+          <p>Azula, Our Firelord is the most powerful of all fire benders to have walked the planet.</p>
+          <p>She was so powerful the creators of the show had to use their power to make her lose a fight (in a very pretentious way at that).</p>
+        </div>
+          <button id="show_image_1" class="primary-button">Toggle Image 1</button>
+          <button id="show_image_2" class="secondary-button">Toggle Image 2</button>
+      </hello-world>
+      <a href="index.html">
+        <button class="primary-button">Home</button>
+      </a>
+    </div>
+  </body>
+</html>
