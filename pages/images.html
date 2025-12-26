@@ -3,13 +3,23 @@
   <head>
     <title>Simple Site</title>
     <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/helloWorld.css">
-    <script src="../scripts/helloWorld.js" defer></script>
+    <link rel="stylesheet" href="../styles/imageToggle.css">
+    <script src="../scripts/image-toggle.js" defer></script>
     <script src="../scripts/updateUrl.js" defer></script>
   </head>
 
   <body class='page-color'>
+    <nav>
+      <div class="link-group">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="link-group">
+        <a href="#">Account</a>
+      </div>
+    </nav>
     <update-url></update-url>
+
     <div class="content">
       <img 
         src="../assets/Azula2.jpg"
@@ -17,7 +27,7 @@
         width="200"
         height="300"
       >
-      <hello-world>
+      <image-toggle>
         <div style="display: flex; flex-direction: row; gap: 1rem;">
           <img
             src="../assets/Azula1.jpg"
@@ -45,7 +55,7 @@
         </div>
           <button id="show_image_1" class="primary-button">Toggle Image 1</button>
           <button id="show_image_2" class="secondary-button">Toggle Image 2</button>
-      </hello-world>
+      </image-toggle>
       <a href="../index.html">
         <button class="primary-button">Home</button>
       </a>

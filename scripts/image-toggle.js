@@ -1,4 +1,4 @@
-class HelloWorld extends HTMLElement {
+class ImageToggle extends HTMLElement {
     constructor() {
         super();
     }
@@ -23,4 +23,4 @@ class HelloWorld extends HTMLElement {
     }
 }
 
-customElements.define('hello-world', HelloWorld);
+customElements.define('image-toggle', ImageToggle);
